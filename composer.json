@@ -1,0 +1,28 @@
+{
+    "name": "shahriar-siraj/laravel-ip-blacklisting",
+    "description": "Laravel package to implement IP Blacklisting",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Md Shahriar Siraj",
+            "email": "ssnigdho@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3.0 | ^8.0",
+        "laravel/framework": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ShahriarSiraj\\LaravelIpBlacklisting\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShahriarSiraj\\LaravelIpBlacklisting\\ServiceProvider"
+            ]
+        }
+    }
+}
